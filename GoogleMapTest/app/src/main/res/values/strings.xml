@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GoogleMapTest</string>
+    <string name="btn_login">Login</string>
+    <string name="map_key" translatable="false">AIzaSyBcobi8Bvk4d4_RmZxtIPvl-bRbJ8Pg6Is</string>
+    <string name="link_newAccaunt">No account yet? Create one</string>
+    <string name="link_reset">Forgot Password?</string>
+    <string name="dialog_auth">Authentication...</string>
+    <string name="snack_authfailed">Authentication failed. Try again</string>
+    <string name="input_pass">Enter at least 6 letters and numbers</string>
+    <string name="input_email">Enter username</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="tv_time">Date of birth:</string>
+    <string name="button_registration">Registration</string>
+    <string name="input_username">Enter username</string>
+    <string name="tost_dateerror">Choose date of birth</string>
+    <string name="tost_succes">Registration succes</string>
+</resources>

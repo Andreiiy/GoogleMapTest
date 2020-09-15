@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/cordLayoutSignin"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:launchMode="singleTask"
+android:fitsSystemWindows="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="56dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/ivTitle"
+        android:layout_width="378dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/planet" />
+
+    <!-- Email Label -->
+
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorWhite"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:textSize="24dp" />
+
+    <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="@color/colorWhite"
+            android:textSize="24dp" />
+
+
+    <Button
+        android:id="@+id/_loginButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorBlue"
+        android:padding="12dp"
+        android:text="@string/btn_login"
+        android:textColor="@color/colorBlack"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/link_newAccaunt"
+        android:textColor="@color/colorBeg"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
